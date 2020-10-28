@@ -1,0 +1,10 @@
+{
+  "name": "yasd-helper",
+  "version": "0.1.0",
+  "description": "An ad-hoc host for proxying Surge HTTP API",
+  "main": "index.js",
+  "repository": "https://github.com/geekdada/yasd-helper.git",
+  "author": "Roy Li <me@dada.li>",
+  "license": "MIT",
+  "private": false
+}

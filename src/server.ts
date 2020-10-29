@@ -4,7 +4,7 @@ import https from 'https'
 import http from 'http'
 import axios from 'axios'
 import _ from 'lodash'
-import H2o2 from '@hapi/H2o2'
+import H2o2 from '@hapi/h2o2'
 import Boom from '@hapi/boom'
 import HapiPino from 'hapi-pino'
 

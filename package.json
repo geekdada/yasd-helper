@@ -19,6 +19,7 @@
     "coverage": "jest --forceExit --coverage",
     "clean": "rimraf build",
     "build": "run-s clean && tsc -p tsconfig.json",
+    "build:binary": "pkg --target node12-macos,node12-win,node12-linux,node12-alpine --out-path ./binary-build .",
     "prepublish": "run-s build",
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
     "pub": "np",
@@ -37,8 +38,7 @@
     "ini": "^1.3.5",
     "lodash": "^4.17.20",
     "node-forge": "^0.10.0",
-    "source-map-support": "^0.5.18",
-    "spdy": "^4.0.2"
+    "source-map-support": "^0.5.18"
   },
   "devDependencies": {
     "@commitlint/cli": "^11.0.0",
@@ -63,6 +63,7 @@
     "np": "^6.3.1",
     "npm-debug-log-cleaner": "^1.0.3",
     "npm-run-all": "^4.1.5",
+    "pkg": "^4.4.9",
     "prettier": "^2.1.2",
     "ts-jest": "^26.4.3",
     "type-fest": "^0.18.0",
@@ -84,5 +85,8 @@
   "keywords": [
     "yasd",
     "surge"
-  ]
+  ],
+  "pkg": {
+    "scripts": "build/**/*.js"
+  }
 }

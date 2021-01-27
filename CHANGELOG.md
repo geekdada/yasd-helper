@@ -1,3 +1,12 @@
+## [0.1.4](https://github.com/geekdada/yasd-helper/compare/v0.1.3...v0.1.4) (2021-01-27)
+
+
+### Bug Fixes
+
+* package.json & yarn.lock to reduce vulnerabilities ([2be9756](https://github.com/geekdada/yasd-helper/commit/2be97567e14cd6f468a24ccf6a1b260b36ad057e))
+
+
+
 ## [0.1.3](https://github.com/geekdada/yasd-helper/compare/v0.1.2...v0.1.3) (2020-10-29)
 
 
